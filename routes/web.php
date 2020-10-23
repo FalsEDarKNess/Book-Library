@@ -38,3 +38,9 @@ Route::get('horror', 'MainController@horror')->name('horrorpage');
 Route::get('romance', 'MainController@romance')->name('romancepage');
 
 Route::get('knowledge', 'MainController@knowledge')->name('knowledgepage');
+
+// Working with data in blade file
+Route::get('service','MainController@service')->name('servicepage');
+
+//CRUD for student table
+Route::resource('student','StudentController'); // resource (get/post/put/delete)

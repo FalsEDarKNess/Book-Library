@@ -58,5 +58,21 @@ class MainController extends Controller
     {
     	return view('knowledge');
     }
+
+    public function service($value='')
+    {
+        //string
+        //return view('service',['name'=>'Thet Paing Htut']);
+
+        //array of arrays
+        $students = array(
+            array('name'=>'mgmg','age'=>26),
+            array('name'=>'SuSu','age'=>23)
+        );
+        //dd($students); //var_dump();die();
+
+        //may be array of objects
+        return view('service',['a'=>$students]);
+    }
 }
 
