@@ -24,6 +24,7 @@
 					<li class="nav-item"><a href="{{route('bookspage')}}" class="nav-link">Books</a></li>
 					<li class="nav-item"><a href="{{route('aboutpage')}}" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="{{route('contactpage')}}" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="{{route('student.index')}}" class="nav-link">Student List</a></li>
 					<li class="nav-item"><a href="" class="nav-link" id="count">
 						<span class="p1 fa-stack has-badge" id="item_count" data-count="0">
 							<i class="p3 fa fa-book fa-stack-1x xfa-inverse"></i>
